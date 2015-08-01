@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="es")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+	title Ejemplo de slider con jQuery
+	link(rel="stylesheet", href="styles.css")
+body
+	#slider
+		- for (var i = 1; i <= 7; i++)
+			section
+				h2 Sección #{i}
+				img(src="http://lorempixel.com/600/400")
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas rem placeat, officia fugit minus pariatur illum blanditiis reiciendis numquam officiis sequi cum iure quis doloremque deserunt ullam delectus et! Vitae.
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+	script(src="scripts.js")
+
+	
